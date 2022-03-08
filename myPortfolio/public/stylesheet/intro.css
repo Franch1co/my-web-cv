@@ -1,0 +1,129 @@
+#profilePhoto {
+    width: 60%;
+    max-width: 16em;
+    border-radius: 50%;
+    box-shadow: 0 0 3em black;
+}
+
+#textDisplay{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 1em;
+}
+
+#info {
+    padding-top: 5em;
+}
+
+#main {
+    min-height: 100vh;
+    height: 100%;
+    background-attachment: fixed; 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("https://www.lukas-petereit.com/wp-content/uploads/2018/03/Pico-do-Arieiro-Landscape-Panorama-of-Madeira-Island.jpg");
+}
+
+#title {
+    color: white;
+    margin: 0.4em;
+    font-size: 3em;
+}
+
+#scroll {
+    filter: brightness(0) invert(1);
+    width: 3.5em;
+}
+
+#scroll.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+#scrollPage {
+    margin-top: 8vh;
+}
+
+@media (max-width: 1495px){ 
+
+    #profilePhoto {
+        width: 60%;
+        max-width: 12em;
+        border-radius: 50%;
+        box-shadow: 0 0 3em black;
+    }
+
+    #title {
+        color: white;
+        margin: 0.6em;
+        font-size: 2em;
+    }
+
+    #textDisplay{
+        font-size: 15px;
+        color: white;
+        margin-bottom: 2em;
+    }
+
+    #info {
+        padding-top: 5.5em;
+    }
+
+    .fa {
+        padding: 15px !important;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border: 1px;
+        border-style: solid;
+        border-color: rgb(255, 255, 255, 0.5);
+        border-radius: 10%;
+    }
+}
+
+@media (max-width: 474px){ 
+    #title { 
+        font-size: 2em;
+    }
+    #profilePhoto {
+        max-width: 14em;
+    }
+    #textDisplay{
+        font-size: 15px;
+    }
+    #info {
+        padding-top: 6em;
+    }
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255, 0.5);
+    border-radius: 10%;
+}
+  
+.fa:hover {
+    color: white;
+    border-color: white;
+}
+  
+.fa-facebook,.fa-linkedin,.fa-github {
+    color: rgb(255, 255, 255, 0.5);
+}
+

@@ -1,0 +1,36 @@
+#profile{
+    background-color: #fcf6f1;
+    padding-top: 8em;
+    padding-bottom: 6em;
+}
+
+#titleProfile {
+    font-size: 3.5em;
+    text-transform: uppercase;
+    margin-left: 0;
+}
+
+#first {
+    border-right: 2px solid rgb(0 0 0 / 30%);
+}
+
+@media (max-width: 1000px){
+    #first {
+        width: 100%;
+        padding: 0 0 2.5em 3.5em;
+        border-right: none;
+    }
+    #second {
+        width: 100%;
+        padding: 0 4em 2.5em 3.5em;
+    }
+}
+
+@media (max-width: 480px){
+    #first { 
+        font-size: 0.6em;
+    }
+    #second {
+        padding-left: 2.7em;
+    }
+}
