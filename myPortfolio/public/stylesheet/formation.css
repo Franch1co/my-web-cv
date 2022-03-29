@@ -1,5 +1,6 @@
 #titleAcademic, #titleProfissional, #titleContact{
     font-weight: 100;
+    font-size: 3em;
     padding-top: 60px;
     margin: 1em;
     text-align: center;
@@ -32,9 +33,15 @@
     margin-bottom: 4em;
 }
 
-@media (max-width: 470px){ 
+@media (min-width: 768px) and (max-width: 995px){ 
     #list {
         margin-left: 0px !important;
+    }
+}
+
+@media (max-width: 560px){ 
+    #list {
+        margin-left: 10px !important;
     }
     #topic {
         margin: auto;
@@ -51,5 +58,20 @@
     #topicPhoto {
         width: 80%;
         margin-left: 2em !important;
+    }
+}
+
+@media (max-width: 770px){ 
+    #titleAcademic, #titleProfissional, #titleContact {
+        font-size: 2em;
+    }
+    #list {
+        padding-top: 0px !important;
+    }
+    #aboutText {
+        font-size: 1.15em !important;
+    }
+    #topic {
+        width: 4em;
     }
 }
