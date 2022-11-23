@@ -5,11 +5,9 @@ document.addEventListener('scroll', (e) => {
     if (document.documentElement.scrollTop > 50) {
         navbar.setAttribute('id', 'navscroll');
         navbar.style.backgroundColor = '#bbb5ae';
-        navbar.style.width = '100%';
     } else {
         navbar.removeAttribute('id', 'navscroll');
         navbar.style.backgroundColor = 'transparent';
-        navbar.style.width = '80%';
     }
 })
 

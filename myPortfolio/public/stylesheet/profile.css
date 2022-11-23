@@ -17,22 +17,15 @@
 
 @media (max-width: 1200px){
     #first { 
-        font-size: 0.87em;
-    }
-    .pt-first {
-        font-size: 0.78em !important;
+        font-size: 0.9em;
     }
 }
 
 @media (max-width: 1000px){
     #first {
-        font-size: 0.67em;
         width: 100%;
-        padding: 0 0 2.5em 5em;
+        padding: 0 0 2.5em 3.5em;
         border-right: none;
-    }
-    .pt-first {
-        font-size: 0.62em !important;
     }
     #second {
         width: 100%;
@@ -43,19 +36,9 @@
     }
 }
 
-@media (max-width: 770px){ 
-    #aboutText {
-        font-size: 1.15em !important;
-    }
-    .pt-first {
-        font-size: 0.55em !important;
-    }
-}
-
 @media (max-width: 480px){
     #first { 
         font-size: 0.6em;
-        padding-left: 4.5em;
     }
     #second {
         padding-left: 2.7em;
