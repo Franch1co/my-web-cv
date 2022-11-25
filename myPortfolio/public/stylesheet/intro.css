@@ -23,7 +23,7 @@
     background-position: center;
     text-align: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("https://www.lukas-petereit.com/wp-content/uploads/2018/03/Pico-do-Arieiro-Landscape-Panorama-of-Madeira-Island.jpg");
+    url('https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1506&q=80')
 }
 
 #title {
@@ -49,6 +49,31 @@
 
 #scrollPage {
     margin-top: 8vh;
+}
+
+.fa {
+    font-size: large !important;
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border: 1px;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0.130);
+    border-radius: 10%;
+}
+  
+.fa:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.180);
+    border-color: white;
+}
+  
+.fa-facebook,.fa-linkedin,.fa-github {
+    color: white;
 }
 
 @media (max-width: 1495px){ 
@@ -78,7 +103,7 @@
 
     .fa {
         padding: 15px !important;
-        font-size: 30px;
+        font-size: inherit !important;
         width: 50px;
         text-align: center;
         text-decoration: none;
@@ -104,26 +129,3 @@
         padding-top: 6em;
     }
 }
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border: 1px;
-    border-style: solid;
-    border-color: rgb(255, 255, 255, 0.5);
-    border-radius: 10%;
-}
-  
-.fa:hover {
-    color: white;
-    border-color: white;
-}
-  
-.fa-facebook,.fa-linkedin,.fa-github {
-    color: rgb(255, 255, 255, 0.5);
-}
-

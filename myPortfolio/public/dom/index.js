@@ -4,18 +4,18 @@ document.addEventListener('scroll', (e) => {
     
     if (document.documentElement.scrollTop > 50) {
         navbar.setAttribute('id', 'navscroll');
-        navbar.style.backgroundColor = '#bbb5ae';
+        navbar.style.backgroundColor = '#232323';
     } else {
         navbar.removeAttribute('id', 'navscroll');
-        navbar.style.backgroundColor = 'transparent';
+        navbar.style.backgroundColor = 'rgba(0, 0, 0, 0.466)';
     }
 })
 
-const nav = document.querySelector('.navbar-toggler');
-nav.addEventListener('click', (e) => {
-    const navbarNav = document.querySelector('#navbarNav');
-    navbarNav.style.backgroundColor = '#bbb5ae';
-})
+// const nav = document.querySelector('.navbar-toggler');
+// nav.addEventListener('click', (e) => {
+//     const navbarNav = document.querySelector('#navbarNav');
+//     navbarNav.style.backgroundColor = '#bbb5ae';
+// })
 
 const writerDisplay = () => {
 
