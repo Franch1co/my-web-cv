@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
 #profile{
-    background-color: #fff7ee;
+    background-color: #E9E1D7;
     padding-top: 8em;
     padding-bottom: 6em;
 }
 
 #titleProfile {
+    font-family: 'Montserrat', sans-serif;
     font-size: 3.5em;
     text-transform: uppercase;
     margin: 0 35px 0 0;
@@ -13,6 +17,10 @@
 
 #first {
     border-right: 2px solid rgb(0 0 0 / 30%);
+}
+
+#second {
+    font-family: 'Inconsolata', monospace;
 }
 
 @media (max-width: 1200px){
